@@ -1,0 +1,27 @@
+# Proyecto específico: Kill Port (.NET WinForms + Inno Setup)
+
+# Salidas de compilación del proyecto
+**/bin/
+**/obj/
+
+# Publicación generada por Build-Installer.ps1
+publish/
+
+# Instalador compilado por Inno Setup
+KillPort-Setup.exe
+
+# Archivos locales de Visual Studio
+.vs/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Basura de Windows
+Thumbs.db
+Desktop.ini
+
+# Temporales comunes si aparecen editando a mano
+*.tmp
+*.log
+*.bak
